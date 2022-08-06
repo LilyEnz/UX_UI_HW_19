@@ -1,12 +1,6 @@
 console.log("Your index.js file is loaded correctly!");
 
 
-var span = document.getElementsByClassName("close")[0];
-
-
-span.onclick = function() { 
-  modal.style.display = "none";
-}
 
 var modal = document.getElementById("bigFlockApp");
 
@@ -48,3 +42,9 @@ img.onclick = function(){
 }
 
 
+var span = document.getElementsByClassName("close")[0];
+
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
