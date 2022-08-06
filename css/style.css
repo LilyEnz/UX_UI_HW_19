@@ -207,6 +207,8 @@ body{
     text-decoration: none;
     font-size: 14px;
     justify-content: center;
+    width: 100%;
+    margin-bottom: 3%;
 }
 
 @media only screen and (max-width: 600px) {
