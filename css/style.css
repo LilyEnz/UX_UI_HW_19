@@ -4,7 +4,7 @@
   vertical-align: top;
 }
 .logo{
-  width: 200px;
+  width: 100px;
   padding: 1%;
   text-align: center;
 }
@@ -22,7 +22,7 @@ nav {
   margin-left: auto;
 }
 li{
-  float:left;
+  float:right;
   padding: 16px;
 }
 
