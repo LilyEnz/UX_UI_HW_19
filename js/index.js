@@ -1,5 +1,13 @@
 console.log("Your index.js file is loaded correctly!");
 
+
+var span = document.getElementsByClassName("close")[0];
+
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
 var modal = document.getElementById("bigFlockApp");
 
 var img = document.getElementById("FlockApp");
@@ -10,13 +18,6 @@ img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
-}
-
-var span = document.getElementsByClassName("close")[0];
-
-
-span.onclick = function() { 
-  modal.style.display = "none";
 }
 
 
@@ -32,12 +33,6 @@ img.onclick = function(){
   captionText.innerHTML = this.alt;
 }
 
-var span = document.getElementsByClassName("close")[0];
-
-
-span.onclick = function() { 
-  modal.style.display = "none";
-}
 
 
 var modal = document.getElementById("bigNOAA");
@@ -52,19 +47,4 @@ img.onclick = function(){
   captionText.innerHTML = this.alt;
 }
 
-var span = document.getElementsByClassName("close")[0];
 
-
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-
-
-
-/** $("workImg").hover(
-    function() {
-    $(this).addClass("enlargeWorkImg");
-}, function() {
-    $(this).removeClass("enlargeWorkImg");
-}
-); */
