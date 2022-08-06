@@ -4,7 +4,7 @@
   vertical-align: top;
 }
 .logo{
-  width: 100px;
+  width: 60px;
   padding: 1%;
   text-align: center;
 }
@@ -24,12 +24,13 @@ nav {
 li{
   float:right;
   padding: 16px;
+  font-weight: bold;
 }
 
 footer{
   background-color: #373738;
-  padding-left: 100px;
   color: white;
+  width: 230%;
 }
 .footerNav{
   display: inline-block;
