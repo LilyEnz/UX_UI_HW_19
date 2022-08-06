@@ -1,0 +1,126 @@
+
+.inline-block{
+  display: inline-block;
+  vertical-align: top;
+}
+.logo{
+  width: 200px;
+  padding: 1%;
+  text-align: center;
+}
+
+nav {
+  width: 73%;
+  padding: 1%;
+  margin-left: auto;
+}
+
+.topNav {
+  vertical-align: top;
+  list-style-type: none;
+  width: 50%;
+  margin-left: auto;
+}
+li{
+  float:left;
+  padding: 16px;
+}
+
+footer{
+  background-color: #373738;
+  padding-left: 100px;
+  color: white;
+}
+.footerNav{
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: bottom;
+  padding-left: 100px;
+}
+
+h1{
+    text-align: center;
+}
+div{
+   
+    text-align: center;
+}
+.flexContainer{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.flexChild{
+    width: 33%;
+    margin: 15px;
+    align-items: center;
+}
+.skillsImg{
+    width: 100%;
+    align-content: center;
+}
+body{
+    background-color: #FEF9EF;
+    font-family: Helvetica;
+  }
+
+  body{
+    background-color: #FEF9EF;
+    font-family: Helvetica;
+  }
+
+h1{
+    text-align: center;
+  }
+  
+  .workGrid{
+    display: grid;
+    grid-template-columns: 500px 600px;
+    grid-template-rows: 350px 350px 350px;
+    column-gap: 50px;
+    row-gap: 20px;
+    margin: 10px;
+    padding-left: 40px;
+    justify-content: center;
+  }
+
+  button{
+    background-color: #227C9D;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    float: center;
+  }
+.workImg{
+    width:500px;
+}
+.viewAllProjects{
+    background-color: #FE6D73;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .flexChild{
+    width: 100%;
+  }
+  .workGrid{
+   grid-template-columns: 150px 200px;
+  }
+  .workImg{
+    width: 150px;
+  }
+}
